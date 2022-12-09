@@ -4,6 +4,10 @@ PKG_NAME:=netmodel
 PKG_VERSION:=v2.5.1
 SHORT_DESCRIPTION:=Network Model plugin
 
+PKG_SOURCE:=netmodel-v2.5.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/netmodel/-/archive/v2.5.1
+PKG_HASH:=1d6fd5e4561fba4875975b218697c32a2eb4ab67e73fbe2237365669109c45e9
+PKG_BUILD_DIR:=$(BUILD_DIR)/netmodel-v2.5.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
