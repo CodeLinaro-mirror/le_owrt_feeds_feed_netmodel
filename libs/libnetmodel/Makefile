@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/libraries/libnetmodel/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libnetmodel
-PKG_VERSION:=v1.5.19
+PKG_VERSION:=sah-next_v1.6.0
 SHORT_DESCRIPTION:=NetModel client library
 
-PKG_SOURCE:=libnetmodel-v1.5.19.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libnetmodel/-/archive/v1.5.19
-PKG_HASH:=bf03423271d318bbf4139545afbcaf0e5fb08c6fd94fd2214f3e047eefcb4ed4
-PKG_BUILD_DIR:=$(BUILD_DIR)/libnetmodel-v1.5.19
+PKG_SOURCE:=libnetmodel-sah-next_v1.6.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libnetmodel/-/archive/sah-next_v1.6.0
+PKG_HASH:=2022f6c8e92ffc3816092da96e92503012042d5d209fa521d93358e65c21d30e
+PKG_BUILD_DIR:=$(BUILD_DIR)/libnetmodel-sah-next_v1.6.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -19,7 +21,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=Libraries
+  SUBMENU:=Ambiorix
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libnetmodel
   DEPENDS += +libamxc
