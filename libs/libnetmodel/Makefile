@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libnetmodel
-PKG_VERSION:=sah-next_v1.6.0
+PKG_VERSION:=sah-next_v1.6.1
 SHORT_DESCRIPTION:=NetModel client library
 
-PKG_SOURCE:=libnetmodel-sah-next_v1.6.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libnetmodel/-/archive/sah-next_v1.6.0
-PKG_HASH:=2022f6c8e92ffc3816092da96e92503012042d5d209fa521d93358e65c21d30e
-PKG_BUILD_DIR:=$(BUILD_DIR)/libnetmodel-sah-next_v1.6.0
+PKG_SOURCE:=libnetmodel-sah-next_v1.6.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libnetmodel/-/archive/sah-next_v1.6.1
+PKG_HASH:=9ec39c57e5dfbf503c32da6fe2a541093bb9a176671cde2616ed494f01538cc2
+PKG_BUILD_DIR:=$(BUILD_DIR)/libnetmodel-sah-next_v1.6.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
