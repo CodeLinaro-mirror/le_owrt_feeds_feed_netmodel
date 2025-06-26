@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-moca/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=netmodel-moca
-PKG_VERSION:=v0.1.1
+PKG_VERSION:=sah-next_v0.2.0
 SHORT_DESCRIPTION:=Network Model MoCA client
 
-PKG_SOURCE:=netmodel-moca-v0.1.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-moca/-/archive/v0.1.1
-PKG_HASH:=4c0dd3bf4c2b5bdd53e88ba9fb62c7f63f607777fdc8618087fc148d759a9f88
-PKG_BUILD_DIR:=$(BUILD_DIR)/netmodel-moca-v0.1.1
+PKG_SOURCE:=netmodel-moca-sah-next_v0.2.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-moca/-/archive/sah-next_v0.2.0
+PKG_HASH:=b4b1d7b5e03a9fb6617e457bc4fcfdb77751a2c916fe72aa7fd765df3b4a7d69
+PKG_BUILD_DIR:=$(BUILD_DIR)/netmodel-moca-sah-next_v0.2.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -19,7 +21,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=Netmodel
+  SUBMENU:=Ambiorix
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-moca
   DEPENDS += +libamxc
