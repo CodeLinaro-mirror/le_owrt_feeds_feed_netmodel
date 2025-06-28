@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-dhcpv6/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=netmodel-dhcpv6
-PKG_VERSION:=sah-next_v1.3.1
+PKG_VERSION:=sah-next_v1.3.2
 SHORT_DESCRIPTION:=Network Model DHCPv6client client
 
-PKG_SOURCE:=netmodel-dhcpv6-sah-next_v1.3.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-dhcpv6/-/archive/sah-next_v1.3.1
-PKG_HASH:=886987888189dfcc00da2abbf7d05c4920e82d0411057e5cee86c16816ca2968
-PKG_BUILD_DIR:=$(BUILD_DIR)/netmodel-dhcpv6-sah-next_v1.3.1
+PKG_SOURCE:=netmodel-dhcpv6-sah-next_v1.3.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-dhcpv6/-/archive/sah-next_v1.3.2
+PKG_HASH:=c91fa540f40febd717c59cc0be1caf463d587ab9a4927a2e432232bb8837831f
+PKG_BUILD_DIR:=$(BUILD_DIR)/netmodel-dhcpv6-sah-next_v1.3.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -19,7 +21,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=Netmodel
+  SUBMENU:=Ambiorix
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-dhcpv6
   DEPENDS += +libamxc
