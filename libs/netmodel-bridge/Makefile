@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-bridge/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=netmodel-bridge
-PKG_VERSION:=v1.0.4
+PKG_VERSION:=sah-next_v1.1.0
 SHORT_DESCRIPTION:=Network Model bridge client
 
-PKG_SOURCE:=netmodel-bridge-v1.0.4.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-bridge/-/archive/v1.0.4
-PKG_HASH:=7a62a94b1495ae8c9532d6c56ab477f1d5e49968868ba565e0998e76c4f803a7
-PKG_BUILD_DIR:=$(BUILD_DIR)/netmodel-bridge-v1.0.4
+PKG_SOURCE:=netmodel-bridge-sah-next_v1.1.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-bridge/-/archive/sah-next_v1.1.0
+PKG_HASH:=6267320cb2108e6b8cd5adb68484897ebaacccd8d5bd0e86643e9b1e88e7bb07
+PKG_BUILD_DIR:=$(BUILD_DIR)/netmodel-bridge-sah-next_v1.1.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -19,7 +21,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=Netmodel
+  SUBMENU:=Ambiorix
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-bridge
   DEPENDS += +libamxc
