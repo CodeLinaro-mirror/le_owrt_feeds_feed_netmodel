@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-ip/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=netmodel-ip
-PKG_VERSION:=v1.4.1
+PKG_VERSION:=sah-next_v1.4.2
 SHORT_DESCRIPTION:=Network Model IP client
 
-PKG_SOURCE:=netmodel-ip-v1.4.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-ip/-/archive/v1.4.1
-PKG_HASH:=00cb49fface952b368e67eb4bbce535741be4001f4201c63094f8260fdcf6aab
-PKG_BUILD_DIR:=$(BUILD_DIR)/netmodel-ip-v1.4.1
+PKG_SOURCE:=netmodel-ip-sah-next_v1.4.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-ip/-/archive/sah-next_v1.4.2
+PKG_HASH:=skip
+PKG_BUILD_DIR:=$(BUILD_DIR)/netmodel-ip-sah-next_v1.4.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -19,7 +21,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=Netmodel
+  SUBMENU:=Ambiorix
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-ip
   DEPENDS += +libamxc
