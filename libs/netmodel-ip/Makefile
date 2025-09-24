@@ -8,7 +8,7 @@ SHORT_DESCRIPTION:=Network Model IP client
 
 PKG_SOURCE:=netmodel-ip-sah-next_v1.4.2.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-ip/-/archive/sah-next_v1.4.2
-PKG_HASH:=skip
+PKG_HASH:=a52875946fd7a5ae124d1ced47c34a4f2bf6dc889ee2458857e1604b8e068662
 PKG_BUILD_DIR:=$(BUILD_DIR)/netmodel-ip-sah-next_v1.4.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
