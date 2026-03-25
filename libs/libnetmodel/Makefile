@@ -1,16 +1,16 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.3)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version master)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/libraries/libnetmodel/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libnetmodel
-RAW_VERSION:=sah-next-4.1_v0.2.2
+RAW_VERSION:=sah-next-4.2_v0.2.3
 PKG_VERSION:=$(if $(filter v0% v1% v2% v3% v4% v5% v6% v7% v8% v9%,$(RAW_VERSION)),$(patsubst v%,%,$(RAW_VERSION)),$(RAW_VERSION))
 SHORT_DESCRIPTION:=NetModel client library
 
-PKG_SOURCE:=libnetmodel-sah-next-4.1_v0.2.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libnetmodel/-/archive/sah-next-4.1_v0.2.2
-PKG_HASH:=664354b051a37df402295bf422a66134d740495d7401ffc04da88202811a9902
-PKG_BUILD_DIR:=$(BUILD_DIR)/libnetmodel-sah-next-4.1_v0.2.2
+PKG_SOURCE:=libnetmodel-sah-next-4.2_v0.2.3.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libnetmodel/-/archive/sah-next-4.2_v0.2.3
+PKG_HASH:=61ad65e82e3ba1a8148f7cd8b580bf33c51f6239f80ee4b589b12a6721c4b3e3
+PKG_BUILD_DIR:=$(BUILD_DIR)/libnetmodel-sah-next-4.2_v0.2.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
