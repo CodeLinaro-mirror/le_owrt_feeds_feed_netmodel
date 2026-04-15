@@ -1,16 +1,16 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version master)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.6)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-netdev/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=netmodel-netdev
-RAW_VERSION:=sah-next-4.2_v0.2.2
+RAW_VERSION:=sah-next-4.2_v0.2.3
 PKG_VERSION:=$(if $(filter v0% v1% v2% v3% v4% v5% v6% v7% v8% v9%,$(RAW_VERSION)),$(patsubst v%,%,$(RAW_VERSION)),$(RAW_VERSION))
 SHORT_DESCRIPTION:=Network Model NetDev client
 
-PKG_SOURCE:=netmodel-netdev-sah-next-4.2_v0.2.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-netdev/-/archive/sah-next-4.2_v0.2.2
-PKG_HASH:=14f33befbe23d26fe837304f389f4521d6409c36109801456bf90a7f8ad65583
-PKG_BUILD_DIR:=$(BUILD_DIR)/netmodel-netdev-sah-next-4.2_v0.2.2
+PKG_SOURCE:=netmodel-netdev-sah-next-4.2_v0.2.3.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-netdev/-/archive/sah-next-4.2_v0.2.3
+PKG_HASH:=aae452b293e9652b3e6dbd9e90779af2d7ff9ab358931ff5a77f16682533b33b
+PKG_BUILD_DIR:=$(BUILD_DIR)/netmodel-netdev-sah-next-4.2_v0.2.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
