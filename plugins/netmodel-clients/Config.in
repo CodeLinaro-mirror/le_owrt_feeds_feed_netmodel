@@ -1,3 +1,5 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version master)
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/netmodel/applications/netmodel-clients/-/blob/main/baf.yml instead
 config PACKAGE_netmodel-clients
     tristate
     select SAH_AMX_NETMODEL_CLIENTS
